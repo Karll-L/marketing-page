@@ -4,7 +4,11 @@ import Navigation from './component/navbar';
 import About from './component/about';
 import Service from './component/service';
 import History from './component/history';
+
+
 function App() {
+
+  
   return (
     <div className="App">
       <Navigation />
@@ -17,4 +21,5 @@ function App() {
     
   );
 }
+
 export default App;
